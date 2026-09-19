@@ -35,8 +35,8 @@ for i, job_title in enumerate(job_titles):
     fig.tight_layout(h_pad=0.5) #Fix overlapping subplots
  ```
 
- ### Results
- ![Visualization of Top Skills](Project\Images\skill_demand_all_data_roles.png)
+ ### Results 
+ ![Visualization of Top Skills]([Project\Images\skill_demand_all_data_roles.png](https://raw.githubusercontent.com/zcarea/Job_Market_Analysis/refs/heads/master/Project/Images/skill_demand_all_data_roles.png))
 
 ### Insights
 - Python is a versatile skill, highly demanded across all three roles, but most prominently for Data Scientists (72%) and Data Engineers (65%).
