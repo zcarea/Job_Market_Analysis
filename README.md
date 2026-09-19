@@ -8,7 +8,7 @@ and got the top 5 skills for these top 3 roles.
 this query highlights the most popular job titles and their top skiils, 
 showing which skills, I should pay attention to depending on the role I'm targeting.
 
-view my notebook with detailed steps here: [2_Slill_Demand.ipynb](Project\2_Skill_Demand.ipynb)
+View my notebook with detailed steps here: [2_Slill_Demand.ipynb](Project\2_Skill_Demand.ipynb)
 
 ## Visualize Data
  ``` Python
