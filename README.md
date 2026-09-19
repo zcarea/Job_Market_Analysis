@@ -1,6 +1,6 @@
 # The Analysis:
 
-## 1. What are thr most demended skills for the top 3 most popular data roles? 
+## 1. What are the most demended skills for the top 3 most popular data roles? 
 
 To find the most demanded skiils for the top 3 most popular data roles. 
 I filtred out those positions by wich ones were the most popular, 
