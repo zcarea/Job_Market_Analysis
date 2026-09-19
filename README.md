@@ -35,7 +35,7 @@ for i, job_title in enumerate(job_titles):
     fig.tight_layout(h_pad=0.5) #Fix overlapping subplots
  ```
 
- ### Results 
+ ### Results
  ![Visualization of Top Skills](Project\Images\skill_demand_all_data_roles.png)
 
 ### Insights
