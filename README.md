@@ -44,3 +44,28 @@ for i, job_title in enumerate(job_titles):
 - Data Engineers require more specialized
 technical skills (AWSe Azure, Spark) compared to Data Analysts and Data Scientists who are expected to be proficient in more general data management
 and analysis tools (Excel, Tableau).
+
+## 2. How are in-demand skills trending for Data Analysts?
+
+### Visualize Data
+
+```python
+
+from matplotlib.ticker import PercentFormatter
+
+df_plot = df_DA_US_percent.iloc[:,:5]
+sns.lineplot(data=df_plot, dashes=False, palette='tab10', legend='full')
+
+plt.gca().yaxis.set_major_formatter(PercentFormatter(decimals=0))
+
+plt.show()
+
+```
+### Results 
+![Trending Skills for Data Analysts in the US](Project\Images\Skills_trend_DA.png)
+*Bar graph visualizing the trending top skills for data analysts in the US in 2023.* 
+
+- SQL remains the most consistently demanded skill throughout the year, although it shows agradual decrease in demand. 
+- Excel experienced a significant incrase in demand starting around September, surpassing both Python and Tabeau by the end of the year.
+- Both Python and Tableau show relatively stable demand throughout the year with some fluctuations but remain essential skills for data analysts.
+Power BI, while less demanded compared to the others, shows a slight upward trend towards the year's end.
